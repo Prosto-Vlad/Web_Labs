@@ -14,9 +14,18 @@ body {
 .header {
     background-color: rgb(153, 93, 2);
     color: #fff;
-    text-align: end;
     font-style: italic;
     padding: 15px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.slog {
+    color: black;
+    padding: 2px;
+    border: solid black 2px;
+    background-color: rgb(255, 255, 255);
+    grid-column: 3;
 }
 
 .content {
@@ -35,7 +44,17 @@ body {
     background-color: rgb(153, 93, 2);
     color: #fff;
     padding: 15px;
-    text-align: end;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.numer {
+    color: black;
+    padding: 2px;
+    border: solid black 2px;
+    background-color: rgb(255, 255, 255);
+    grid-column: 3;
 }
 
 .navigate {
