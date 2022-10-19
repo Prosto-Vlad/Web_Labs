@@ -1,0 +1,97 @@
+body {
+    height: 100%;
+}
+
+.layout {
+    min-height: 100vh;
+    /* display: table; */
+}
+
+img {
+    display: block;
+    max-width: 500;
+    max-height: 500;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.header {
+    display: table;
+
+    background-color: rgb(153, 93, 2);
+    color: #fff;
+    font-style: italic;
+    padding: 15px;
+    width: 100%;
+
+    align-items: center;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.footer {
+    display: table;
+
+    background-color: rgb(153, 93, 2);
+    color: #fff;
+    font-style: italic;
+    padding: 15px;
+    width: 100%;
+}
+
+.glor {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.slog {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    color: black;
+    padding: 2px;
+    border: solid black 2px;
+    background-color: rgb(255, 255, 255);
+    width: 0;
+    white-space: nowrap;
+}
+
+.navigate {
+    padding: 1%;
+    width: 15%;
+    vertical-align: top;
+}
+
+.article {
+    text-align: center;
+    padding: 1%;
+}
+
+.sidebar {
+    /* padding: 10px; */
+    text-indent: 20px;
+    padding: 1%;
+    width: 20%;
+    vertical-align: top;
+}
+
+.main-text {
+    /* padding: 10px; */
+    text-indent: 20px;
+    padding: 1%;
+    width: 65%;
+}
+
+.frase {
+    padding: 1%;
+
+}
+
+.main_table {
+    border-collapse: collapse;
+
+}
