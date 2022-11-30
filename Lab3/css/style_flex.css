@@ -124,7 +124,19 @@ img {
         flex-direction: column;
     }
 
-    /* .list li {
-        display: inline;
-    } */
+    .navigate {
+        padding: 0px;
+    }
+
+    .list {
+        display: flex;
+    }
+
+    .list li {
+        padding: auto;
+        display: inline-block;
+        border: 1px solid black;
+        flex-basis: auto;
+        flex-grow: 1;
+    }
 }
