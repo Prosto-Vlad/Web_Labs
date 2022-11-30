@@ -109,7 +109,7 @@ img {
     background-color: rgb(255, 255, 255);
 }
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 768px) {
     .content {
         flex-direction: column;
     }
@@ -155,5 +155,9 @@ img {
 
     .footer h2 {
         font-size: 15px;
+    }
+
+    .content {
+        flex-wrap: nowrap;
     }
 }
