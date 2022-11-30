@@ -19,6 +19,7 @@ img {
     color: #fff;
     font-style: italic;
     padding: 15px;
+    border-bottom: 1px solid black;
 
     display: flex;
     justify-content: space-between;
@@ -94,6 +95,7 @@ img {
     color: #fff;
     font-style: italic;
     padding: 15px;
+    border-top: 1px solid black;
 
     display: flex;
     justify-content: space-between;
@@ -107,7 +109,7 @@ img {
     background-color: rgb(255, 255, 255);
 }
 
-@media handheld {
+@media (max-width:768px) {
     .content {
         flex-direction: column;
     }
@@ -133,10 +135,25 @@ img {
     }
 
     .list li {
-        padding: auto;
         display: inline-block;
         border: 1px solid black;
         flex-basis: auto;
         flex-grow: 1;
+    }
+
+    .header h1 {
+        font-size: 25px;
+    }
+
+    .header h2 {
+        font-size: 15px;
+    }
+
+    .footer h2 {
+        font-size: 25px;
+    }
+
+    .footer h2 {
+        font-size: 15px;
     }
 }
